@@ -11,7 +11,7 @@ jobs:
       - name: Add issue to project and set status
         uses: actions/add-to-project@v1.0.1
         with:
-          project-url: https://github.com/orgs/OpenPecha/projects/12
+          project-url: https://github.com/orgs/OpenPecha/projects/78
           github-token: ${{ secrets.ADMIN_GITHUB_TOKEN }}
 
       - name: Add labels to new issue
